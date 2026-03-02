@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sealers | Member list</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top">
+        <h1 class="left">🦭 The Sealers</h1>
+        <nav class="right" id="nav1">
+            <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='quotes.html'">Quotes</button>
+            <button id="selected">Members</button>
+            <button onclick="window.location.href='submitQuote.html'">Submit</button>
+        </nav>
+    </div>
+
+    <div id="wrapper">
+        <h2 class="center title">Members</h2>
+        <div id="cont">
+            <div class="card" id="cl">
+                <div class="toc">
+                    <h1 class="emoji">😔</h1>
+                    <h1 class="title">Clodia</h1>
+                </div>
+                <p class="desc">Most responsive of the triplets, Clodia is certin to be cronically online enough to give you a responce within 4-6 hours time. Clodia is in my opinion the most gossipy in the groupchat with telling all the rumors.</p>
+            </div>
+
+            <div class="card" id="co">
+                <div class="toc">
+                    <h1 class="emoji">🤓</h1>
+                    <h1 class="title">Covina</h1>
+                </div>
+                <p class="desc">One of the quietest, but not the most quiet is Covina. She is one of the most likely to join a call if she is free and she can talk for hours until she has to go to Sephora or decorate her Christmas tree (Its not like I put up mine early too) She always saves and spends her money on random things like clothes (I would spend it on robux :8)</p>
+            </div>
+
+            <div class="card" id="ca">
+                <div class="toc">
+                    <h1 class="emoji">👀</h1>
+                    <h1 class="title">Caleb</h1>
+                </div>
+                <p class="desc">The creator of this website, and one of the latest to join the group, Caleb is the 6th member of the sealers groupchat. He was also the one who came up with the idea for the sealers, but the seal idea goes to Clodia. This is one of the youngest but the best members of the sealers groupchat.</p>
+            </div>
+        </div>
+
+        <div id="cont2">
+            <div class="card" id="my">
+                <div class="toc">
+                    <h1 class="emoji">🙈</h1>
+                    <h1 class="title">Myah</h1>
+                </div>
+                <p class="desc">Being barley older then me, Myah is next on the list of members in the sealers groupchat. Myah is byfar the biggest texter in the sealers. She starts and ends the conversation as she is basically always available in moments notice. She also is the one that asks to call the most. Her most send text is "Pull up!"</p>
+            </div>
+
+            <div class="card" id="jo">
+                <div class="toc">
+                    <h1 class="emoji">🥀</h1>
+                    <h1 class="title">Josie</h1>
+                </div>
+                <p class="desc">Being the youngest in the group, is Josie. Josie is basically always putting emojis on text messages, such as 🔪, or ⚰️(Who let her get IOS 18?) She is also the only Blonde in the group as everyone else is Brunette. This makes sense. Her and Myah were the first best friends (I think) and they hang out at each others houses all the time. She is also always available.</p>
+            </div>
+
+            <div class="card" id="ce">
+                <div class="toc">
+                    <h1 class="emoji">🙄</h1>
+                    <h1 class="title">Celine</h1>
+                </div>
+                <p class="desc">Celine, the oldest members of the sealers groupchat. Celine is mostly known for not chatting but lurking in on chats. She is also really good at Tennis, and any other sport that is not Ping Pong (I would crush her)</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        if (window.innerWidth < 904) {
+            document.getElementById('cont').style.flexDirection = 'column';
+            document.getElementById('cont2').style.flexDirection = 'column';
+        }
+    </script>
+</body>
+</html>
