@@ -61,5 +61,11 @@
             <h1 class="less">You've reached a 404 error. This page doesn't exist.</h1>
         </div>
     </div>
+
+    <script>
+        if (window.location.pathname.endsWith("update.html")) {
+            window.location.href = "index.html";
+        }
+    </script>
 </body>
 </html>
